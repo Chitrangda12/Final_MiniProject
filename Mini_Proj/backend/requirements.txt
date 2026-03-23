@@ -1,0 +1,35 @@
+# Core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+alembic==1.14.1
+aiosqlite==0.20.0
+
+# AI / LLM
+google-generativeai==0.8.4
+langchain==0.3.14
+langchain-google-genai==2.0.8
+
+# External APIs
+httpx==0.28.1
+aiohttp==3.11.11
+
+# Cache
+redis==5.2.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+
+# Utils
+python-dotenv==1.0.1
+Pillow==11.1.0
+
+# ML
+scikit-learn==1.6.1
